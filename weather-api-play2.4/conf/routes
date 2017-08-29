@@ -1,0 +1,1 @@
+GET     /weather/:city                           controllers.Application.weather(city: String, country: Option[String])
